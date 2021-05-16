@@ -8,4 +8,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Dynami.Budget.Business\Dynami.Budget.Business.csproj" />
+    <ProjectReference Include="..\Dynami.Budget.ViewModel\Dynami.Budget.ViewModel.csproj" />
+  </ItemGroup>
+
 </Project>

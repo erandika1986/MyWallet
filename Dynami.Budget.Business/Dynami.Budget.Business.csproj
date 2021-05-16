@@ -4,4 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Dynami.Budget.Data\Dynami.Budget.Data.csproj" />
+    <ProjectReference Include="..\Dynami.Budget.Model\Dynami.Budget.Model.csproj" />
+    <ProjectReference Include="..\Dynami.Budget.Util\Dynami.Budget.Util.csproj" />
+    <ProjectReference Include="..\Dynami.Budget.ViewModel\Dynami.Budget.ViewModel.csproj" />
+  </ItemGroup>
+
 </Project>
